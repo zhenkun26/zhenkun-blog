@@ -28,7 +28,7 @@ blog/
 
 ## 快速开始
 
-**环境要求：只需要 Node.js（>= 18.20 或 20.3+ 或 22+）。不需要单独安装 Astro**——它是项目依赖，`npm install` 时会自动装好（npm 随 Node.js 一起安装）。
+**环境要求：Node.js >= 22.12.0、npm >= 9.6.5（与当前锁定的 Astro 7.2.0 要求一致）。不需要单独安装 Astro**——它是项目依赖，`npm install` 时会自动装好（npm 随 Node.js 一起安装）。
 
 第一次使用，按顺序执行：
 
@@ -183,7 +183,7 @@ npm config set registry https://registry.npmmirror.com
 ```
 
 **提示 Node 版本太低？**
-Astro 5 要求 Node 18.20.8+ / 20.3.0+ / 22.0.0+，升级 Node.js 后重试。
+当前锁定的 Astro 7.2.0 要求 Node.js >= 22.12.0、npm >= 9.6.5。可用 `node --version` 和 `npm --version` 检查，升级后重试。
 
 **端口被占用？**
 `npm run dev -- --port 4322` 指定其他端口。
